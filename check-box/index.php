@@ -23,12 +23,14 @@
 
     <h3 style="margin-bottom: 20px"><center>Tabel Siswa</h3>
     <form class="" action="input.php" method="post">
+    <a class="btn btn-sm btn-success" style="margin-bottom: 20px" href="tampil.php">Tampil Data Siswa</a>
+
     <table class="table table-bordered">
 
       <tr>
         <th>Nama Siswa</th>
         <th>Kelas</th>
-        <th>Kehadiran</th>
+        <th><center>Kehadiran</th>
       </tr>
       <?php include 'koneksi.php';
       $data = mysqli_query($koneksi, "SELECT * from siswa");

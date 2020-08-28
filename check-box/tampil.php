@@ -21,12 +21,13 @@
     <div class="container">
 
     <h3><center>Tampil Absen Siswa</h3>
+    <a class="btn btn-sm btn-success" style="margin-bottom: 20px" href="index.php">Tampil Data Siswa</a>
     <table class="table table-bordered">
       <thead>
         <th>No</th>
         <th>Nama Siswa</th>
         <th>Tanggal</th>
-        <th>Absen</th>
+        <th><center>Absen</th>
       </thead>
 
       <?php include 'koneksi.php';

@@ -21,6 +21,7 @@
     <div class="container">
 
     <h3><center>Tampil Absen Siswa</h3>
+    <a class="btn btn-sm btn-success" style="margin-bottom: 20px" href="index.php">Input Data Siswa</a>
     <table class="table table-bordered">
       <thead>
         <th>No</th>
@@ -38,8 +39,8 @@
         <tr>
           <td><?php echo $no++; ?></td>
           <td><?php echo $d['nama_siswa'] ?></td>
-          <td><?php echo $d['kondisi'] ?></td>
           <td><?php echo $d['tgl'] ?></td>
+          <td><?php echo $d['kondisi'] ?></td>
         </tr>
       </tr>
     <?php
